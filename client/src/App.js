@@ -5,10 +5,11 @@ import Home from './pages/Home';
 import About from './pages/About';
 import Services from './pages/Services';
 import Footer from './compoents/Footer.jsx';
+import "./App.css"
 
 const App = () => {
   return (
-    <div>
+    <div className='app'>
       <Router>
         <div>
           <Navbar />
@@ -18,7 +19,7 @@ const App = () => {
           <Route path="/about" element={<About />} />
           <Route path="/services" element={<Services />} />
         </Routes>
-        <div>
+        <div className='footer'>
           <Footer/>
         </div>
       </Router>
