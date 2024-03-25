@@ -67,7 +67,7 @@ const Container = styled.div`
     background-color: rgba(0, 0, 0, 0.3);
     outline: none;
   }
-  .button button {
+   button {
     padding: 10px 20px;
     background-color: #e50914;
     border: none;
